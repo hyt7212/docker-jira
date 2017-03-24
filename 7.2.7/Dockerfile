@@ -43,6 +43,7 @@ COPY "docker-entrypoint.sh" "/"
 RUN chmod 700 "/docker-entrypoint.sh"
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
+# hack
 COPY "atlassian-extras-3.1.2.jar" "/opt/atlassian/jira/atlassian-jira/WEB-INF/lib/"
 
 # Run Atlassian JIRA as a foreground process by default.
