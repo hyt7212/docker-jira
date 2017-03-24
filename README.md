@@ -1,4 +1,4 @@
-JIRA 7.2.7 for docker 汉化版
+JIRA 7.2.7 for docker
 ===
 + jira7.2.7
 + mysql <= 5.6
